@@ -1,0 +1,99 @@
+.title:hover{
+cursor: pointer;  
+}
+
+.title{
+  color: black;
+}
+
+h1{
+text-align: center;
+
+}
+
+
+.full {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 70px;
+  padding: 100px;
+  margin-top: 0px;
+} 
+
+.places {
+  text-align: center; /* Center the content */
+  background: aliceblue;
+  padding: 20px; 
+  margin: 30px auto; 
+  width: 25%; 
+  background: rgba( 255, 255, 255, 0.08);
+backdrop-filter: blur(11px);
+-webkit-backdrop-filter: blur(11px);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.search-container{
+  border-radius: 5px;
+  padding-right: 1px;
+  
+}
+.full .search-container .btn.btn-outline-primary:hover {
+  background-color:  rgba(75, 75, 75, 0.27);
+  color: cyan !important;
+  
+  
+}
+
+.full .search-container .btn.btn-outline-primary{
+  display: inline-block;
+  background-color: white;
+border: white;
+margin-left: 25px;
+background: rgba( 255, 255, 255, 0.27);
+backdrop-filter: blur(16px);
+-webkit-backdrop-filter: blur(16px);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-style: normal;
+}
+
+.Humidity,.wind,.description,.temperature{
+  font-weight: bold;
+  color:#E0E0E0;
+}
+
+#city
+{
+  font-weight: bolder;
+  color: #FFD700;
+}
+
+.search-container .form-control {
+  padding: 1.6rem; /* Adjust the padding as needed */
+  font-size: 1.2rem; /* Adjust the font size as needed */
+}
+
+
+body {
+  background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Override background image in a specific div */
+.override-background {
+  background-image: none; /* Remove background image */
+  background-color: #fff; /* Set background color */
+}
+
